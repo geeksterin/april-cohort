@@ -24,4 +24,14 @@ public class Kadane {
         System.out.println(globalSum);
     }
 
+    private static int findmin(int[] arr) {
+        int minElement = arr[0];
+        for (int i = 0; i < arr.length; i++) {
+            if (minElement > arr[i]){
+                minElement = arr[i];
+            }
+        }
+        return minElement;
+    }
+
 }
