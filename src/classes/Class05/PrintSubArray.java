@@ -1,4 +1,4 @@
-package Class05;
+package classes.Class05;
 
 public class PrintSubArray {
 
@@ -31,9 +31,6 @@ public class PrintSubArray {
             }
 
         }
-
-
         System.out.println(maxsum);
-
     }
 }

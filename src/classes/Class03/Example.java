@@ -1,4 +1,4 @@
-package Class03;
+package classes.Class03;
 
 public class Example {
 

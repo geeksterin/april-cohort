@@ -1,4 +1,4 @@
-package Class02;
+package classes.Class02;
 
 public class NCR {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Class06;
+package classes.Class06;
 
 public class Kadane {
 

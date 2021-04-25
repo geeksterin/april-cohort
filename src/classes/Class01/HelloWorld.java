@@ -1,4 +1,4 @@
-package Class01;
+package classes.Class01;
 
 public class HelloWorld {
 

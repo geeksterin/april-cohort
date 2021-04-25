@@ -1,4 +1,4 @@
-package Class04;
+package classes.Class04;
 
 public class TwoSum {
 
