@@ -7,7 +7,7 @@ public class WoodCutting {
 
     public static void main(String[] args) {
 
-        System.out.println(getHeight(new int[]{20, 15, 17, 10}, 7));
+        System.out.println(getHeight(new int[]{20, 15, 17, 10}, 18));
     }
 
     public static int getHeight(int arr[], int b) {
@@ -18,20 +18,17 @@ public class WoodCutting {
             j = Math.max(a, j);
         }
 
-        while(i < j) {
+        while(i <= j) {
 
             int mid = (i+j)/2;
-
-            if(i == mid)
-                break;
 
             if(calculateAmount(arr, mid) < b) {
                 j = mid - 1;
             } else {
-                i = mid;
+                i = mid + 1;
             }
         }
-        return i;
+        return Math.min(i, j);
     }
 
     public static int calculateAmount(int arr[], int height) {
