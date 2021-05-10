@@ -3,6 +3,16 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.11.1/5b7f90fc98bf3205c82622b05319f6360644bd29/jackson-annotations-2.11.1-sources.jar!/com/fasterxml/jackson/annotation/JsonIgnore.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.11.1/5b7f90fc98bf3205c82622b05319f6360644bd29/jackson-annotations-2.11.1-sources.jar!/com/fasterxml/jackson/annotation/JsonIgnoreProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tomakehurst/wiremock-jre8/2.27.2/cd9b423d4a4eac21f2c79a5a23079a2e9c3efdcb/wiremock-jre8-2.27.2-sources.jar!/com/github/tomakehurst/wiremock/client/WireMock.java">
           <value>
             <set />
@@ -63,6 +73,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/practice/Oops.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/practice/practiceclass03/AllocateBooks.java">
           <value>
             <set />
@@ -79,6 +94,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/practice/practiceclass03/SquareRoot.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass04/RotateBy90Degree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass04/SpiralOrderMatrix.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass05/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass05/StringUtils.java">
           <value>
             <set />
           </value>
@@ -114,6 +149,36 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/practice/praticeclass02/WoodCutting.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/BalancedParanthesis.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/DirectoryStructure.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/LongestCommonPrefix.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/PossibleSubstrings.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/Stack.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/possibleSubstrings.java">
           <value>
             <set />
           </value>
@@ -163,6 +228,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/.gitlab-ci.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/docker-compose.yml">
           <value>
             <set />
@@ -198,6 +268,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/client/GeoServiceClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/client/ProductInventoryClient.kt">
           <value>
             <set />
@@ -214,6 +289,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/constants/MobileConnectConstants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/enum/DataSet.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/enum/Scope.kt">
           <value>
             <set />
           </value>
@@ -248,7 +333,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/service/impl/GeoService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/service/impl/MsisdnService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/service/impl/PartyService.kt">
           <value>
             <set />
           </value>
