@@ -1,4 +1,4 @@
-package Class01Rec;
+package classes.Class01Rec;
 
 public class Recursion {
 
