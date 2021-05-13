@@ -3,6 +3,26 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.11.1/5b7f90fc98bf3205c82622b05319f6360644bd29/jackson-annotations-2.11.1-sources.jar!/com/fasterxml/jackson/annotation/JsonIgnore.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.11.1/5b7f90fc98bf3205c82622b05319f6360644bd29/jackson-annotations-2.11.1-sources.jar!/com/fasterxml/jackson/annotation/JsonIgnoreProperties.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tomakehurst/wiremock-jre8/2.27.2/cd9b423d4a4eac21f2c79a5a23079a2e9c3efdcb/wiremock-jre8-2.27.2-sources.jar!/com/github/tomakehurst/wiremock/client/WireMock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ninja-squad/springmockk/2.0.3/80737f58f16c988d52d048d0f306ff9c7f9f35af/springmockk-2.0.3-sources.jar!/com/ninjasquad/springmockk/MockkClear.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
           <value>
             <set />
@@ -53,6 +73,51 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/practice/Oops.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass03/AllocateBooks.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass03/MedianOfTwoSortedArrays.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass03/RotatedAndSorted.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass03/SquareRoot.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass04/RotateBy90Degree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass04/SpiralOrderMatrix.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass05/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/practiceclass05/StringUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/practice/praticeclass01/BitonicMaxSubArray.java">
           <value>
             <set />
@@ -88,6 +153,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/BalancedParanthesis.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/DirectoryStructure.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/LongestCommonPrefix.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/PossibleSubstrings.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/Stack.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/practice/praticeclass06/possibleSubstrings.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/praticeclass01/BitonicMaxSubArray.java">
           <value>
             <set />
@@ -108,7 +203,217 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/helm/.gitlab-ci.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/helm/mt-mobile-connect-bff/Chart.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/helm/mt-mobile-connect-bff/charts/mobile-connect/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/helm/values-dev1.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/.env">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/.gitlab-ci.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/docker-compose.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/model/src/main/kotlin/hu/mt/mobileconnect/Models.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/build.gradle.kts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/CustomerHubClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/client/CommonSessionDbClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/client/CustomerHubClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/client/GeoServiceClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/client/ProductInventoryClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/client/SessionDBXmlRpcClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/configuration/Configurations.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/constants/MobileConnectConstants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/enum/DataSet.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/enum/Scope.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/exception/ExceptionLambdas.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/exception/MobileConnectException.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/handler/MobileConnectHandler.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/helper/MobileConnectHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/service/ICustomerDataService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/service/impl/CustomerDataService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/service/impl/GeoService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/service/impl/MsisdnService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/service/impl/PartyService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/util/Aes256Util.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/util/MobileConnectUtil.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/kotlin/hu/mt/mobileconnect/validator/MobileConnectValidator.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/test/kotlin/hu/mt/mobileconnect/CommonSessionDbClientTests.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/test/kotlin/hu/mt/mobileconnect/MobileConnectHandlerTests.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/test/kotlin/hu/mt/mobileconnect/ProductInventoryClientTests.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/test/kotlin/hu/mt/mobileconnect/TestContainers.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../mt-mobile-connect-bff/mobile-connect/service/src/test/resources/application-test.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../natco/cicd-templates/.gitlab-ci-gradle-java11.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../natco/cicd-templates/.gitlab-ci-helm3.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../natco/cicd-templates/.idea/workspace.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.kt">
           <value>
             <set />
           </value>
