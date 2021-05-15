@@ -25,7 +25,7 @@ public class NQueenProblem {
         return false;
     }
 
-    private static void printBoard(int[][] board) {
+    public static void printBoard(int[][] board) {
 
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board.length; j++) {
@@ -36,7 +36,7 @@ public class NQueenProblem {
 
     }
 
-    private static boolean canPlaceTheQueen(int[][] board, int row, int col) {
+    public static boolean canPlaceTheQueen(int[][] board, int row, int col) {
         // queen in col or not
         for (int i = 0;i<board.length;i++){
             if(board[i][col] == 1){
@@ -71,7 +71,7 @@ public class NQueenProblem {
 
 
     public static void main(String[] args) {
-        int n = 8;
+        int n = 4;
         int[][] board = new int[n][n];
         nQueen(board,0);
     }
