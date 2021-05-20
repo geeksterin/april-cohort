@@ -16,8 +16,6 @@ public class Sudoku {
                 {0, 0, 5, 2, 0, 6, 3, 0, 0} };
 
         SudokuSolver(grid,0,0);
-
-
     }
 
     private static boolean SudokuSolver(int[][] grid, int row, int col) {
