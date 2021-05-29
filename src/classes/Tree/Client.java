@@ -4,11 +4,13 @@ public class Client {
 
     public static void main(String[] args) {
 
-        int[] arr = {1,2,4,-1,5,-1,-1,3,6,-1,7,-1,-1,-1};
+        int[] arr = {1,2,4,-1,5,8,-1,-1,-1,3,6,-1,7,-1,-1,-1};
 
         BinaryTree bt = new BinaryTree(arr);
 
-        bt.preOrderPublic();
+//        bt.preOrderPublic();
+
+        bt.rightView();
 
     }
 
