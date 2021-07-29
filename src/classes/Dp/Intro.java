@@ -19,9 +19,14 @@ public class Intro {
         // int[][] mine = {{10,33,13,15},{22,21,04,1},{5,0,2,3},{0,6,14,2}};
         // System.out.println(GoldMine(mine));
 
-        int[] arr = { 3, 2, 0, 2, 3, 1, 0, 1, 2, 0, 1 };
-        System.out.println(minJumps(arr));
-
+        // int[] arr = { 3, 2, 0, 2, 3, 1, 0, 1, 2, 0, 1 };
+        // System.out.println(minJumps(arr));
+        // int[] arr = { 0, 3, 5, 6, 15, 10, 25, 12, 24 };
+        // System.out.println(RodCutting(arr));
+        // int[] arr = { 2, 3, 1, 5, 6 };
+        // System.out.println(TargetSumSubset(arr, 17));
+        int[] arr = {2,3,5};
+        System.out.println(CoinChangePerm(arr, 7));
     }
 
     public static int fib(int n) {
@@ -200,5 +205,66 @@ public class Intro {
         System.out.println();
 
         return strg[strg.length - 1];
+    }
+
+    public static int RodCutting(int[] rod) {
+        int[] strg = new int[rod.length];
+
+        strg[0] = rod[0];
+        strg[1] = rod[1];
+
+        for (int i = 2; i < rod.length; i++) {
+            int max = Integer.MIN_VALUE;
+            for (int j = 1, c = i - 1; j <= c; j++, c--) {
+                max = Math.max(max, strg[j] + strg[c]);
+            }
+
+            max = Math.max(max, rod[i]);
+            strg[i] = max;
+        }
+
+        return strg[strg.length - 1];
+    }
+
+    public static boolean TargetSumSubset(int[] arr, int target) {
+
+        boolean[][] strg = new boolean[arr.length + 1][target + 1];
+
+        for (int i = 0; i < strg.length; i++) {
+            for (int j = 0; j < strg[0].length; j++) {
+                if (i == 0 && j == 0) {
+                    strg[i][j] = true;
+                } else if (i == 0) {
+                    strg[i][j] = false;
+                } else if (j == 0) {
+                    strg[i][j] = true;
+                } else {
+                    if (strg[i - 1][j]) {
+                        strg[i][j] = true;
+                    } else {
+                        if (j - arr[i - 1] >= 0) {
+                            strg[i][j] = strg[i - 1][j - arr[i - 1]];
+                        }
+                    }
+
+                }
+            }
+        }
+
+        return strg[strg.length - 1][strg[0].length - 1];
+    }
+
+    public static int CoinChangePerm(int[] arr, int target) {
+        int[] strg = new int[target + 1];
+        strg[0] = 1;
+        for (int j = 1; j < strg.length; j++) {
+            for (int i = 0; i < arr.length; i++) {
+                if (j - arr[i] >= 0) {
+                    strg[j] += strg[j - arr[i]];
+                }
+            }
+        }
+
+        return strg[strg.length-1];
     }
 }
