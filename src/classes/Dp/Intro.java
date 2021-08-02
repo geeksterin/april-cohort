@@ -25,8 +25,13 @@ public class Intro {
         // System.out.println(RodCutting(arr));
         // int[] arr = { 2, 3, 1, 5, 6 };
         // System.out.println(TargetSumSubset(arr, 17));
-        int[] arr = {2,3,5};
-        System.out.println(CoinChangePerm(arr, 7));
+        // int[] arr = {2,3,5};
+        // System.out.println(CoinChangeComb(arr, 7));
+        // int[] arr = {5, 5, 10, 100, 10, 5};
+        // System.out.println(MaxSumNoAdjacentBtr(arr));
+        String str1 = "ABCDGH";
+        String str2 = "AEDFHR";
+        System.out.println(LCommonSubs(str1, str2));
     }
 
     public static int fib(int n) {
@@ -266,5 +271,64 @@ public class Intro {
         }
 
         return strg[strg.length-1];
+    }
+
+    public static int CoinChangeComb(int[] arr, int target) {
+        int[] strg = new int[target + 1];
+        strg[0] = 1;
+        for (int i = 0; i < arr.length; i++) {
+                for (int j = 1; j < strg.length; j++) {
+                if (j - arr[i] >= 0) {
+                    strg[j] += strg[j - arr[i]];
+                }
+            }
+        }
+
+        return strg[strg.length-1];
+    }
+
+    public static int MaxSumNoAdjacent(int[] arr){
+        int[][] strg = new int[2][arr.length];
+        strg[0][0] = arr[0];
+        strg[1][0] = 0;
+        for(int i=1;i<arr.length;i++){
+            strg[0][i] = strg[1][i-1]+arr[i];
+            strg[1][i] = Math.max(strg[0][i-1],strg[1][i-1]);
+        }
+
+        return Math.max(strg[0][arr.length-1],strg[1][arr.length-1]);
+    }
+
+    public static int MaxSumNoAdjacentBtr(int[] arr){
+        int exclude = 0;
+        int include = arr[0];
+        for(int i=1;i<arr.length;i++){
+            int temp = include;
+            include = exclude +arr[i];
+            exclude = Math.max(exclude,temp);
+        }
+
+        return Math.max(exclude,include);
+    }
+
+    public static int LCommonSubs(String first, String sec){
+        int[][] strg = new int[first.length()+1][sec.length()+1];
+        for(int i=0;i<strg.length;i++){
+            for(int j=0;j<strg[0].length;j++){
+                if(i==0){
+                    strg[i][j]=0;
+                }else if(j==0){
+                    strg[i][j] = 0;
+                }else{
+                    if(first.charAt(i-1)==sec.charAt(j-1)){
+                        strg[i][j] = strg[i-1][j-1]+1;
+                    }else{
+                        strg[i][j] = Math.max(strg[i-1][j],strg[i][j-1]);
+                    }
+                }
+            }
+        }
+
+        return strg[strg.length-1][strg[0].length-1];
     }
 }
