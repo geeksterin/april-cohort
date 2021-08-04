@@ -29,9 +29,11 @@ public class Intro {
         // System.out.println(CoinChangeComb(arr, 7));
         // int[] arr = {5, 5, 10, 100, 10, 5};
         // System.out.println(MaxSumNoAdjacentBtr(arr));
-        String str1 = "ABCDGH";
-        String str2 = "AEDFHR";
-        System.out.println(LCommonSubs(str1, str2));
+        // String str1 = "ABCDGH";
+        // String str2 = "AEDFHR";
+        // System.out.println(LCommonSubs(str1, str2));
+        // System.out.println(LongestPalindromicSubstring("abccbd"));
+        System.out.println(MinCutPalindrome("abccbd"));
     }
 
     public static int fib(int n) {
@@ -330,5 +332,62 @@ public class Intro {
         }
 
         return strg[strg.length-1][strg[0].length-1];
+    }
+
+
+    public static int LongestPalindromicSubstring(String str){
+        boolean[][] strg = new boolean[str.length()][str.length()];
+        int longPalinSubs = 0;
+        for(int gap =0;gap<str.length();gap++){
+            for(int i=0,j=gap;j<str.length();i++,j++){
+                if(gap==0){
+                    strg[i][j] = true;
+                    longPalinSubs =1;
+                }else if(gap==1){
+                    if(str.charAt(i)==str.charAt(j)){
+                        strg[i][j] = true;
+                        longPalinSubs=2;
+                    }
+                }else{
+                    if(str.charAt(i)==str.charAt(j)){
+                        if(strg[i+1][j-1]==true){
+                            strg[i][j] = true;
+                            longPalinSubs = gap+1;
+                        }
+                    }
+                }
+            }
+        }
+
+        return longPalinSubs;
+    }
+
+    public static int MinCutPalindrome(String str){
+        int[][] strg = new int[str.length()][str.length()];
+        for(int gap =0;gap<str.length();gap++){
+            for(int i=0,j=gap;j<str.length();i++,j++){
+                if(gap==0){
+                    strg[i][j] = 0;
+                }else if(gap==1){
+                    if(str.charAt(i)==str.charAt(j)){
+                        strg[i][j] = 0;
+                    }else{
+                        strg[i][j]=1;
+                    }
+                }else{
+                    if(str.charAt(i)==str.charAt(j)&&strg[i+1][j-1]==0){
+                       strg[i][j] = 0; 
+                    }else{
+                        int min = Integer.MAX_VALUE;
+                        for(int idash=i+1,jdash=j-gap;jdash<j;idash++,jdash++){
+                            min = Math.min(min,strg[i][jdash]+strg[idash][j]+1);
+                        }
+                        strg[i][j] = min;
+                    }
+                }
+            }
+        }
+
+        return strg[0][strg.length-1];
     }
 }
