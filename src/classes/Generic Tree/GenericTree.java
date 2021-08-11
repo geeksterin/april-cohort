@@ -105,4 +105,12 @@ public class GenericTree {
 
         return false;
     }
+
+    public ArrayList<Integer> nodeToRooTPath(int data) {
+		return nodeToRooTPath(root, data);
+	}
+
+	private ArrayList<Integer> nodeToRooTPath(Node node, int data) {
+        
+    }
 }
