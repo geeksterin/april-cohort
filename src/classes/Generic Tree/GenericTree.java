@@ -50,14 +50,26 @@ public class GenericTree {
 	}
 
 	private int size2(Node node) {
+        int size = 0;
+        for(Node child:node.children){
+            size+=size2(child);
+        }
 
+        return size+1;
     }
 
-    public int max() {
+    public int max() {        
 		return max(root);
 	}
 
 	private int max(Node node) {
+        int max = node.data;
+        for(Node child:node.children){
+            int childMax = max(child);
+            max = Math.max(childMax,max);
+        }
+
+        return max;
     }
 
 	public int height() {
@@ -65,7 +77,13 @@ public class GenericTree {
 	}
 
     private int height(Node node) {
+        int maxHt = 0;
+        for(Node child:node.children){
+            int ht = height(child);
+            maxHt = Math.max(maxHt, ht);
+        }
 
+        return maxHt+1;
     }
 
     public boolean find(int data) {
@@ -73,5 +91,18 @@ public class GenericTree {
 	}
 
 	private boolean find(Node node, int data) {
+
+        if(node.data==data){
+            return true;
+        }
+
+        for(Node child:node.children){
+            boolean bl = find(child,data);
+            if(bl==true){
+                return true;
+            }
+        }        
+
+        return false;
     }
 }

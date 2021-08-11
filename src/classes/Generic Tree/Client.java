@@ -4,5 +4,10 @@ public class Client {
             -1 };
         GenericTree gt = new GenericTree(arr);
         gt.display();
+        System.out.println(gt.find(50));
+        System.out.println(gt.find(109));
+        System.out.println(gt.max());
+        System.out.println(gt.size2());
+        System.out.println(gt.height());
     }
 }
