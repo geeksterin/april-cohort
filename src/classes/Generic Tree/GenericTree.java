@@ -44,4 +44,34 @@ public class GenericTree {
             display(child);
         }
     }
+
+    public int size2() {
+		return size2(root);
+	}
+
+	private int size2(Node node) {
+
+    }
+
+    public int max() {
+		return max(root);
+	}
+
+	private int max(Node node) {
+    }
+
+	public int height() {
+		return height(root);
+	}
+
+    private int height(Node node) {
+
+    }
+
+    public boolean find(int data) {
+		return find(root, data);
+	}
+
+	private boolean find(Node node, int data) {
+    }
 }
