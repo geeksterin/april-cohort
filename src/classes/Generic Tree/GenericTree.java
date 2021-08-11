@@ -111,6 +111,23 @@ public class GenericTree {
 	}
 
 	private ArrayList<Integer> nodeToRooTPath(Node node, int data) {
-        
+        // what if we are the data holder node
+        if(node.data==data){
+            ArrayList<Integer> bres = new ArrayList<>();
+            bres.add(node.data);
+            return bres;
+        }
+
+        ArrayList<Integer> mres = new ArrayList<>();
+        for(Node child:node.children){
+            ArrayList<Integer> rres = nodeToRooTPath(child, data);
+            if(rres.size()>0){
+                mres = rres;
+                mres.add(node.data);
+                return mres;
+            }
+        }
+
+        return new ArrayList<>();
     }
 }
